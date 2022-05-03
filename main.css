@@ -1,0 +1,71 @@
+html,
+body { height: 100%;
+    font-family: 'Jost', sans-serif;
+}
+.parent {
+height: 100vh;
+background-image: radial-gradient(circle at bottom left,rgb(102,205,170) 25%,rgb(245,245,245) 10%);
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.child {
+background-image: radial-gradient(circle at top right,rgb(102,205,170) 15%, white 10%);
+width: 70vw;
+height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+img {
+    max-width: 5%;
+    max-height: 5%;
+    position: relative;
+    right: 20%;
+    
+
+}
+.button {
+    padding: 10px 15px;
+    background: rgb(255,127,80);
+    color: whitesmoke;
+    border-style: hidden;
+
+}
+
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: lightgrey;
+    
+  }
+
+  .no-outline:focus {
+    outline: none;
+  }
+
+.child2 {
+    /* flex: 1; */
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    /* justify-content:flex-start; */
+    /* align-items: flex-start; */
+    padding: 0.5em;
+}
+
+label,input {
+    margin-bottom: 5%;
+    /* margin-right: 5%; */
+}
+
+.child2 div {
+    padding-left: 2em;
+    border-left: 1px solid lightgray;
+}
